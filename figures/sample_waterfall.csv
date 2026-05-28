@@ -1,0 +1,6 @@
+"step","N","pct_retained"
+"Raw pooled (2021+2023+2024)",1329686,100
+"Non-missing diabetes outcome (drop preg/pre-diab/DK)",1284384,96.6
+"+ Non-missing BMI / over_obese",1159111,87.2
+"+ Non-missing physical-activity (_TOTINDA)",1156579,87
+"+ Non-missing demographic & SES controls",931829,70.1

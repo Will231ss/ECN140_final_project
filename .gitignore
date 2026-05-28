@@ -1,0 +1,41 @@
+# Raw BRFSS XPT data (publicly available from CDC — too large for git)
+LLCP2021XPT/
+LLCP2023XPT/
+LLCP2024XPT/
+
+# Multi-GB cached fitted-model objects (not needed; Rmd refits inline)
+output/fitted_models.rds
+
+# Large uncompressed CSV of pooled data (RDS version is the canonical artifact)
+clean/brfss_pooled.csv
+
+# Per-year intermediate RDS files (reproducible from 01_clean_data.R)
+clean/brfss_2021_clean.rds
+clean/brfss_2023_clean.rds
+clean/brfss_2024_clean.rds
+
+# Claude session data
+.claude/
+
+# Knit intermediates
+*.tex
+*.aux
+*.log
+*.out
+*.toc
+ECN140_final_paper_files/
+ECN140_final_paper.knit.md
+
+# Scratch verification scripts (not part of the pipeline)
+verify_*.R
+check_vars*.R
+
+# R session state
+.Rhistory
+.Rapp.history
+.RData
+.Rproj.user/
+
+# OS
+.DS_Store
+Thumbs.db
